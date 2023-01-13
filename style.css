@@ -1,0 +1,44 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.class {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footer {
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    background-color: lightseagreen;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
