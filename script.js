@@ -11,5 +11,5 @@ calculateButton.addEventListener('click', () => {
 
 
 let calculatePassNote = (visaNote, passNote) => {
-    return (passNote - (0.3 * visaNote)) * 0.8;
+    return (passNote - (0.3 * visaNote)) / 0.8;
 }
