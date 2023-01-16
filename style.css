@@ -19,7 +19,7 @@ html{
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -41,4 +41,16 @@ body {
     padding: 16px;
     display: flex;
     justify-content: center;
+}
+
+#requiredNote {
+    padding: 100px;
+}
+
+.boxes{
+    padding: 100px;
+}
+
+#requiredNote{
+    font-weight: bold;
 }
